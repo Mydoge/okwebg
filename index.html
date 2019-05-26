@@ -1,7 +1,11 @@
 <html>
 <head>
 <!--Loading scripts-->
-<script src="nginx/nginx.js"></script>
+<script>
+if (window!= top)
+top.location.href=location.href
+</script>
+  <script src="nginx/nginx.js"></script>
 <script src="nginx/bootstrap.js"></script>
 <!--Website code-->
 <meta charset="utf-8">
